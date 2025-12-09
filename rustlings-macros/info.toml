@@ -788,6 +788,20 @@ replacing `???` with 'impl [what goes here?] + [what goes here?]'.
 Related section in The Book:
 https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax"""
 
+[[exercises]]
+name = "traits6"
+dir = "15_traits"
+hint = """
+The fuction should have the required traits for the division,
+eg Div to divide the total and size of slice, Sum to sum over the slice
+and TryFrom as `as T` is disallowed in generic contexs
+
+You may find the following links usefull:
+https://doc.rust-lang.org/std/ops/trait.Div.html
+https://doc.rust-lang.org/std/iter/trait.Sum.html
+https://doc.rust-lang.org/std/convert/trait.TryFrom.html
+"""
+
 # QUIZ 3
 
 [[exercises]]
